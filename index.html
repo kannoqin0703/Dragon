@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的網頁</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="logo" style="width: 150px;" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <!-- 漢堡ICON -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li><a href="#product" class="nav-link">產品</a></li>
+                        <li><a href="#sences" class="nav-link">場景</a></li>
+                        <li><a href="#creative" class="nav-link">NPC</a></li>
+                        <li><a href="#background" class="nav-link">遊戲背景</a></li>
+                        <li><a href="#activity" class="nav-link">道具</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1HEy28kaxylmvj9mP0tqfno3T6BQwVzaG" class="nav-link"><img src="images/ICON.png" alt="" width="30px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/banner1.png" alt="">
+                    <div class="carousel-caption">
+                        <h1>遊戲介面</h1>
+                        <p>龍龍窩</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/banner2.png" alt="">
+                    <div class="carousel-caption">
+                        <h1>載入頁面</h1>
+                        <p>龍龍蛋</p>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/banner3.png" alt="">
+                    <div class="carousel-caption">
+                        <h1>章節選擇</h1>
+                        <p>龍腳印</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 圖片 -->
+    <section class="container-fluid video-area w-100" id="sences">
+        <div class="video-container">
+            <img src="images/yt.png" alt="" width="1000" height="700">
+        </div>
+    </section>
+
+    <!-- 貪吃龍龍要肥家介紹區塊 -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                NPC
+            </h2>
+            <!-- 貪吃龍龍要肥家NPC -->
+            <div class="row">
+                <!-- NPC1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片1" src="images/function1.png">
+                            <div class="card-title-wrap">
+                                <span class="card-title w-100" style="text-align: center;">地方媽媽</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>遊戲中的NPC</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- NPC2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片2" src="images/function2.png">
+                            <div class="card-title-wrap">
+                                <span class="card-title w-100" style="text-align: center;">千金小姐</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>遊戲中的NPC</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- NPC3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="images/function3.png">
+                            <div class="card-title-wrap">
+                                <span class="card-title w-100" style="text-align: center;">潑水屁孩</span>
+                            </div>
+                            <div class="pic-hover">
+                                <h4>遊戲中的NPC</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 貪吃龍龍要肥家遊戲背景 -->
+    <section>
+        <div class="container" id="background">
+            <div class="row">
+                <div class="article_text">
+                    <h3>遊戲背景</h3>
+                    <p>邪惡科學家把龍龍捉到未來</br>
+                        聰明的龍龍</br>
+                        得靠自己的能力</br>
+                        一路吃回家
+                    </p>
+                    <h3>遊戲玩法</h3>
+                    <p>龍龍可以變成吃到食物的顏色</br>
+                        並且穿透跟自己一樣顏色的障礙物</br>
+                        要好好思考該轉換什麼顏色喔</br>
+                    </p>
+                    <h1>貪吃龍龍要肥家</h1>
+                    <p>找到存在關卡裡的鑰匙</br>
+                        啟動時光機回到家裡吧！
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 背景影片 -->
+        <div class="container">
+            <video autoplay muted loop id="myVideo">
+                <source src="video/ytup.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+
+    <!-- 貪吃龍龍要肥家道具 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+            <h2 class="text-center text-info">
+                遊戲道具
+            </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/activity1.png">
+                </div>
+
+                <div class="col-md-4">
+                        <img src="images/activity2.png">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/activity3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <a href="https://drive.google.com/drive/folders/1HEy28kaxylmvj9mP0tqfno3T6BQwVzaG"><img src="images/ICON.png"></a>
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：1410622009</li>
+                        <li>服務時間：週一至週日 0:00 ~ 24:00</li>
+                        <li>服務信箱：Yuqin@gms.nutc.edu.tw</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 Yuqin .Greedy Dragon Dragon Fermented Home.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>
